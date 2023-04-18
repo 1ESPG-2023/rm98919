@@ -55,3 +55,23 @@
 //         console.log(`${key + 1} - ${item.textContent = "LOCALIZADO"}`);
 //     }
 // })
+
+function soma(p1,p2,p3) {
+    nr1 = p1;
+    nr2 = p2;
+
+    return (parseInt(nr1) + parseInt(nr2) + parseInt(p3))
+
+    // console.log(`Resultado : ${nr1 + nr2 + parametro}`);
+    // console.log(`Este é o parametro que foi passado : ${parametro}`);
+}
+
+soma();
+
+//ARROW FUNCTION
+const mudaCor = ()=>{
+    //FUNÇÃO SET-TIME-OUT
+    setTimeout(alert("EXECUTOU"),5000);
+}
+
+mudaCor();
